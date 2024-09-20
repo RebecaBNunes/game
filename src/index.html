@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+</head>
+<title>Pedra, Papel e Tesoura</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1 class="title">Pedra, Papel e Tesoura</h1>
+  <form id="form_game">
+    <p class="subtitulo">Escolha uma Opção:</p>
+    <div class="opcoes_game">
+      <input type="radio" id="pedra" name="jogada" value="1" />
+      <label for="pedra">
+        <img src="https://assets.onecompiler.app/42spxtg9r/42spxyjdr/1000202784.png" width="38" height="38" />
+      </label>
+      <input type="radio" id="papel" name="jogada" value="2" />
+      <label for="papel">
+        <img src="https://assets.onecompiler.app/42spxtg9r/42spxyjdr/1000202782.png" width="38" height="38"
+          alt="papel" />
+      </label>
+      <input type="radio" id="tesoura" name="jogada" value="3" />
+      <label for="tesoura">
+        <img src="https://assets.onecompiler.app/42spxtg9r/42spxyjdr/1000202783.png" width="38" height="38"
+          alt="tesoura" />
+      </label>
+    </div>
+    <div class="err"></div>
+    <div class="submit_area">
+      <button class="btn" type="button">enviar</button>
+    </div>
+  </form>
+  <div class="resultado"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>

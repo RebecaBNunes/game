@@ -1,0 +1,55 @@
+body {
+    padding: 25px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.title {
+    color: #5C6AC4;
+}
+
+.subtitulo {
+    font-size: 1.3rem;
+    color: #5B66B4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.opcoes_game {
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+input:hover {
+    background-color: #5C6AC4;
+}
+
+.err p {
+    color: #f00;
+}
+
+.btn {
+    background-color: #5C6AC4;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #5D6BC4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4c57a8;
+}
+
+.resultado p {
+    color: #000;
+}
