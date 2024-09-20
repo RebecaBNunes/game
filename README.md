@@ -1,5 +1,7 @@
 # Jogo Pedra, Papel e Tesoura
 
+![image game](https://github.com/user-attachments/assets/55d33590-e191-4c24-80da-b47442e750b6)
+
 ## Como Executar
 - Baixe os arquivos para sua máquina local;
 - Abra o arquivo .html
